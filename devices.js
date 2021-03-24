@@ -5550,6 +5550,15 @@ const devices = [
         extend: preset.light_onoff_brightness(),
     },
     {
+        zigbeeModel: ['FWGU10Bulb02UK'],
+        model: 'HALIGHTDIMWWGU10',
+        vendor: 'Hive',
+        description: 'Active smart bulb white LED (GU10)',
+        extend: preset.light_onoff_brightness(),
+    },
+    
+    
+    {
         zigbeeModel: ['FWBulb02UK'],
         model: 'HALIGHTDIMWWB22',
         vendor: 'Hive',
